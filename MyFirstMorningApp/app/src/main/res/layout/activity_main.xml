@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+
+        android:id="@+id/mTv0ne"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Welcome To Android Programmng"
+        android:textColor="#0027FF"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/mTvContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:paddingTop="16dp"
+        android:paddingRight="16dp"
+        android:text="Hello there this is timothy Welcome to Android Programming
+        Hello there this is timothy Welcome to Android Programming
+        Hello there this is timothy Welcome to Android Programming
+        Hello there this is timothy Welcome to Android Programming
+        Hello there this is timothy Welcome to Android Programming
+        Hello there this is timothy Welcome to Android Programming
+        Hello there this is timothy Welcome to Android Programming
+
+
+"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:textSize="20sp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+
+        android:backgroundTint="#FF0000"
+        android:id="@+id/myBtnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login" />
+
+    <Button
+        android:textSize="20sp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="80dp"
+        android:layout_marginLeft="80dp"
+
+        android:id="@+id/mBtnReg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="REGISTER" />
+</LinearLayout>
